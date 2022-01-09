@@ -17,13 +17,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Data", "1.Data", "{536AD5
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.CrossCutting", "2.CrossCutting", "{304FCAC4-B0BD-454D-A5AC-49306707C200}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lemossolucoestecnologia.ecommerce.Data", "lemossolucoestecnologia.ecommerce.Data\lemossolucoestecnologia.ecommerce.Data.csproj", "{7CB37A5E-A8BC-4DBB-992E-ECF8B69A6352}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lemossolucoestecnologia.ecommerce.Data", "lemossolucoestecnologia.ecommerce.Data\lemossolucoestecnologia.ecommerce.Data.csproj", "{7CB37A5E-A8BC-4DBB-992E-ECF8B69A6352}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lemossolucoestecnologia.ecommerce.Domain", "lemossolucoestecnologia.ecommerce.Domain\lemossolucoestecnologia.ecommerce.Domain.csproj", "{8D47BB9A-FD28-4DD9-A99B-2F9A630E8256}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lemossolucoestecnologia.ecommerce.Domain", "lemossolucoestecnologia.ecommerce.Domain\lemossolucoestecnologia.ecommerce.Domain.csproj", "{8D47BB9A-FD28-4DD9-A99B-2F9A630E8256}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lemossolucoestecnologica.ecommerce.Api", "lemossolucoestecnologica.ecommerce.Api\lemossolucoestecnologica.ecommerce.Api.csproj", "{007C5FFD-E5A4-42EC-A231-89C82DEED7A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lemossolucoestecnologica.ecommerce.Api", "lemossolucoestecnologica.ecommerce.Api\lemossolucoestecnologica.ecommerce.Api.csproj", "{007C5FFD-E5A4-42EC-A231-89C82DEED7A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lemossolucoestecnologia.ecommerce.Reposioty", "lemossolucoestecnologia.ecommerce.Reposioty\lemossolucoestecnologia.ecommerce.Reposioty.csproj", "{294658CD-F0E0-4795-A200-E1213DE66949}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lemossolucoestecnologia.ecommerce.Reposioty", "lemossolucoestecnologia.ecommerce.Reposioty\lemossolucoestecnologia.ecommerce.Reposioty.csproj", "{294658CD-F0E0-4795-A200-E1213DE66949}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lemossolucoestecnologia.ecommerce.UI", "lemossolucoestecnologia.ecommerce.UI\lemossolucoestecnologia.ecommerce.UI.csproj", "{3AF6BF7C-81DD-4D06-8F4A-FC935B7796E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,10 @@ Global
 		{294658CD-F0E0-4795-A200-E1213DE66949}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{294658CD-F0E0-4795-A200-E1213DE66949}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{294658CD-F0E0-4795-A200-E1213DE66949}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AF6BF7C-81DD-4D06-8F4A-FC935B7796E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AF6BF7C-81DD-4D06-8F4A-FC935B7796E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AF6BF7C-81DD-4D06-8F4A-FC935B7796E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AF6BF7C-81DD-4D06-8F4A-FC935B7796E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,6 +64,7 @@ Global
 		{8D47BB9A-FD28-4DD9-A99B-2F9A630E8256} = {A6076DD1-F207-44F1-9F02-AA85E03EE290}
 		{007C5FFD-E5A4-42EC-A231-89C82DEED7A9} = {4613F9FF-747F-4561-B393-346AB410F938}
 		{294658CD-F0E0-4795-A200-E1213DE66949} = {774006EA-D355-4FE7-993F-94938B15D5BE}
+		{3AF6BF7C-81DD-4D06-8F4A-FC935B7796E1} = {9C145DF8-7836-43A5-A401-855398B6B98F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {31223351-058B-4A4E-8233-F96DAB78686B}
