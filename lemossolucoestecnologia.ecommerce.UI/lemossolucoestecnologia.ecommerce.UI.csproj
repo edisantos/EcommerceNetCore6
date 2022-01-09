@@ -6,4 +6,19 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Program.cs~RF7518712d.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Refit" Version="6.1.15" />
+    <PackageReference Include="Refit.HttpClientFactory" Version="6.1.15" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\lemossolucoestecnologia.ecommerce.Reposioty\lemossolucoestecnologia.ecommerce.Reposioty.csproj" />
+  </ItemGroup>
+
 </Project>

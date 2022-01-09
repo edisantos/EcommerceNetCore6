@@ -1,0 +1,60 @@
+﻿@model lemossolucoestecnologia.ecommerce.UI.ViewModels.Account.UserInputViewModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+<div class="container">
+    <br /><br />
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="container-login-logo">
+                <img src="~/img/logo.png" />
+            </div>
+
+        </div>
+        <div class="col-sm-8">
+
+
+            <form asp-action="Register" asp-controller="AccountControl" method="post" class="row g-3">
+                <h3>Crie uma conta aqui</h3>
+                <hr />
+                <div class="col-md-6">
+                    <label for="FirstName" class="form-label">Primeiro Nome</label>
+                    <input type="text" class="form-control" asp-for="FirstName">
+                </div>
+                <div class="col-md-6">
+                    <label for="LastName" class="form-label">Último Nome</label>
+                    <input type="text" class="form-control" asp-for="LastName">
+                </div>
+                <div class="col-12">
+                    <label for="Address" class="form-label">Endereço</label>
+                    <input type="text" class="form-control" asp-for="Address">
+                </div>
+                <div class="col-12">
+                    <label for="Email" class="form-label">Email</label>
+                    <input type="email" class="form-control" asp-for="Email">
+                </div>
+                <div class="col-12">
+                    <label for="UserName" class="form-label">Usuário</label>
+                    <input type="text" class="form-control" asp-for="UserName">
+                </div>
+                <div class="col-md-6">
+                    <label for="Password" class="form-label">Senha</label>
+                    <input type="password" class="form-control" asp-for="Password">
+                </div>
+                <div class="col-md-6">
+                    <label for="ConfirmPassword" class="form-label">Confirme Senha</label>
+                    <input type="password" class="form-control" asp-for="ConfirmPassword">
+                </div>
+                <div class="d-grid gap-2">
+                    <button class="btn btn-primary" type="submit"> Registrar</button>
+
+                </div>
+            </form>
+
+
+
+        </div>
+    </div>
+</div>
+

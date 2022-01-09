@@ -1,0 +1,39 @@
+﻿@model lemossolucoestecnologia.ecommerce.UI.ViewModels.Account.LoginInputViewModel
+@{
+    ViewData["Title"] = "Login";
+}
+<div class="container">
+    <br /><br />
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="container-login-logo">
+                <img src="~/img/logo.png" />
+            </div>
+
+        </div>
+        <div class="col-sm-6">
+            <div class="container-login">
+                <img src="~/img/login.png" />
+                <form asp-action="Login" asp-controller="AccountControl" method="post">
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput" class="form-label">Usuário</label>
+                        <input type="text" class="form-control" asp-for="UserName">
+                    </div>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput2" class="form-label">Senha</label>
+                        <input type="password" class="form-control" asp-for="Password">
+                    </div>
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-primary" type="submit"> Entrar</button>
+                        
+                    </div>
+                   
+                </form>
+                <div asp-validation-summary="All" class="text-danger"></div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
