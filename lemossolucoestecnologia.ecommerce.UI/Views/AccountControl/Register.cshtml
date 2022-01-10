@@ -52,8 +52,14 @@
                 </div>
             </form>
 
+            <div asp-validation-summary="All" class="text-danger"></div>
+            @if (TempData["Success"] != null)
+            {
+                <div class="alert alert-success">
+                    @TempData["Success"]
+                </div>
 
-
+            }
         </div>
     </div>
 </div>
