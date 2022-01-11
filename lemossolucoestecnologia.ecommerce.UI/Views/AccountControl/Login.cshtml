@@ -17,11 +17,11 @@
                 <form asp-action="Login" asp-controller="AccountControl" method="post">
                     <div class="mb-3">
                         <label for="formGroupExampleInput" class="form-label">Usuário</label>
-                        <input type="text" class="form-control" asp-for="UserName">
+                        <input type="text" class="form-control" asp-for="userName" autocomplete="off">
                     </div>
                     <div class="mb-3">
                         <label for="formGroupExampleInput2" class="form-label">Senha</label>
-                        <input type="password" class="form-control" asp-for="Password">
+                        <input type="password" class="form-control" asp-for="password" autocomplete="off">
                     </div>
                     <div class="d-grid gap-2">
                         <button class="btn btn-primary" type="submit"> Entrar</button>

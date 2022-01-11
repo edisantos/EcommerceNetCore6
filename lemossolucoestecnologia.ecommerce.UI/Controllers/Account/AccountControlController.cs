@@ -56,7 +56,7 @@ namespace lemossolucoestecnologia.ecommerce.UI.Controllers.Account
 
                 await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
                     new ClaimsPrincipal());
-                TempData["Success"] =  $"Usuário: {user.UserName},{user.Token}";
+                TempData["Success"] =  $"Usuário: {user.userName},{user.Token}";
                 return RedirectToAction(nameof(Index));
                 //ModelState.AddModelError("", $"Usuário: {user.UserName},{user.Token}");
 
